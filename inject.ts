@@ -141,7 +141,7 @@ function renderCard(usage: Usage): HTMLElement {
     header.append(
       el("span", {
         className:
-          "shrink-0 rounded-md border border-border px-1.5 py-0.5 text-[11px] text-muted-foreground",
+          "shrink-0 rounded-sm border border-border bg-muted/40 px-1.5 py-0.5 text-2xs leading-none text-subtle-foreground",
         text: usage.plan,
       }),
     );
