@@ -1,0 +1,27 @@
+{
+  "name": "bb-plugin-grok-usage",
+  "version": "0.2.0",
+  "type": "module",
+  "engines": {
+    "bb": ">=0.37",
+    "bbPluginSdk": "^0.4.1"
+  },
+  "bb": {
+    "name": "Grok Usage",
+    "description": "Show Grok Build limits on Settings → Usage limits.",
+    "branding": {
+      "icon": "./assets/icon.svg"
+    },
+    "server": "./server.ts",
+    "app": "./app.tsx",
+    "skills": ["skills"]
+  },
+  "dependencies": {
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "typescript": "^5.7.0"
+  }
+}
