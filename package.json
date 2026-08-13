@@ -14,7 +14,7 @@
     },
     "server": "./server.ts",
     "app": "./app.tsx",
-    "skills": ["skills"]
+    "skills": []
   },
   "dependencies": {
     "zod": "^4.4.3"
